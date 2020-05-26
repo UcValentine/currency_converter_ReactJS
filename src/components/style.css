@@ -1,0 +1,79 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #505562;
+    color: #fff;
+  }
+.swap {
+    cursor: pointer;
+    float: right;
+    margin-top: -90px;
+  }
+  h1,h2,p{
+    padding: 0.1rem;
+    color: #fff;
+    letter-spacing: .15em;
+  }
+  .card{
+      border: 2px solid gray;
+      border-radius: 5px;
+  }
+  .container{
+    width: 500px;
+    margin: 50px auto;
+    user-select: none;
+    overflow-x: hidden;
+    position: relative;
+  }
+  .header {
+    background-color: #2d2d37;
+    text-align: center;
+    padding: 0.1rem;
+    color: #fff;
+    letter-spacing: .15em;
+  }
+  .header h1 {
+    font-size: 2.25rem;
+  }
+  input{
+    height: 1.875rem + 1px;
+    padding: 0.5rem;
+    margin: 5px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    position: relative;
+  }
+  select.form-control-lg:not([size]):not([multiple]) {
+    height: calc(1.875rem + 1px);
+    margin: 15px;
+}
+  
+.table,
+th,
+td {
+  border: none;
+}
+
+.currencyTable {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.currencyTable td {
+  padding: 5px;
+}
+
+.currencyTable th {
+  padding: 2px;
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.currencyTable td {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+p a{
+    text-decoration: none;
+}
